@@ -1,0 +1,26 @@
+.section {
+   height: 80vh;
+}
+.img {
+   object-fit: cover;
+   object-position: 100% 100%;
+   border-radius: 5px;
+}
+.input-bg {
+   background-color: #dcdcdc;
+   border: none;
+   outline: none;
+   font-size: 20px;
+   font-weight: 500;
+   padding: 0px 10px;
+   width: 170px;
+   margin-left: 5px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+input[type="number"] {
+   -moz-appearance: textfield;
+}
